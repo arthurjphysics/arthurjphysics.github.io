@@ -1,0 +1,22 @@
+.home_panel {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.home_content {
+  flex: 3;
+  padding-top: 30px;
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+.picture-of-me {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+}
+
+.home-button {
+  border-bottom: 1px solid;
+}

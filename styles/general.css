@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited, a:hover, a:active {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.page-content {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  padding-top: 80px;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "cmu_typewriter_textregular";
+  background-color: antiquewhite;
+  height: 100%;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  height: 44px;
+  padding-top: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  background-color: rgb(255, 197, 127);
+  display: flex;
+  justify-content: center;
+  font-size: 34px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+footer {
+  min-height: 120px;
+  background-color: rgb(255, 197, 127);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.home-button {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.home-button:hover {
+  border-color: black;
+}
+
+.research-button {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.research-button:hover {
+  border-color: black;
+}
+
+.CV-button {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.CV-button:hover {
+  border-color: black;
+}
+
+.other-button {
+  cursor: pointer;
+  border-bottom: 1px solid transparent;
+  transition: 0.2s;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.other-button:hover {
+  border-color: black;
+}

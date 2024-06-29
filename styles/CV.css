@@ -1,0 +1,38 @@
+.CV-button {
+  border-bottom: 1px solid;
+}
+
+.page-content {
+  flex-direction: column;
+  justify-content: left;
+}
+
+section {
+  margin-bottom: 1em;
+}
+
+section h1 {
+  font-size: 1.5em;
+}
+
+section h2 {
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+ol li::marker {
+  font-size: 1.25em;
+}
+
+ul li {
+  list-style: disc;
+  counter-reset: 1;
+}
+
+ul li::marker {
+  font-size: 1em;
+}
+
+li {
+  margin-left: 2em;
+}

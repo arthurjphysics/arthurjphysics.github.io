@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'cmu_typewriter_textoblique';
+    src: url('cmunst.woff2') format('woff2'),
+         url('cmunst.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'cmu_typewriter_textbolditalic';
+    src: url('cmuntx.woff2') format('woff2'),
+         url('cmuntx.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'cmu_typewriter_textbold';
+    src: url('cmuntb.woff2') format('woff2'),
+         url('cmuntb.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cmu_typewriter_textregular';
+    src: url('cmuntt.woff2') format('woff2'),
+         url('cmuntt.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
